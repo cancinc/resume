@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 2026-11-04 — Published
 
 - Created synchronized two-page DM Sans résumé, passed independent visual/structural review, and linked it from the preview.
 - Prepared isolated release assets and recorded passed local checks plus hosting access blockers.
@@ -19,3 +19,5 @@
 - Added project instructions, maintenance workflow, and audit decisions.
 - Recorded factual discrepancies and unresolved hosting configuration.
 - Website and downloadable résumé remain unchanged.
+
+- Published the reviewed HTML/PDF on nicking.cv after explicit approval; verified both production hashes and preserved the prior GitHub/Worker baseline for rollback.

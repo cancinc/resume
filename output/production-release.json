@@ -1,0 +1,14 @@
+{
+  "release_date": "2026-11-04",
+  "domain": "https://nicking.cv",
+  "worker": "resume",
+  "worker_version": "cd952b5b-81c2-45a9-81e2-eadd16f8dc1d",
+  "previous_worker_version": "118aa6ef-83ab-4926-84a7-3749ae39e55e",
+  "source_commit": "9adfc2d89aafc54f82f3b5e7803acff45e96f2ba",
+  "baseline_commit": "a019a932c1cde9fe778393f069dc643376587d4c",
+  "sha256": {
+    "Nicholas_King_Resume.pdf": "d1629af9cd89e239147d90794dcbc4a327341d87337345deb47494520a5f8041",
+    "index.html": "63a865628083de07f519c2b92d3b9a42e13cb916e9ef1872347c9a8285cb6cac"
+  },
+  "live_hashes_match": true
+}

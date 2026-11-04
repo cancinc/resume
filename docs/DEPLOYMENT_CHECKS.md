@@ -1,5 +1,7 @@
 # Release readiness — November 4, 2026
 
+Historical preflight results below. The later signed-in checks, approved deployment, and verified production outcome are recorded in [RELEASE-2026-11-04.md](RELEASE-2026-11-04.md).
+
 ## Result
 
 Local PDF and release checks PASS. Production deployment readiness is NOT YET VERIFIED because authenticated hosting configuration is unavailable. No production publish, GitHub push, merge, or DNS change was performed.

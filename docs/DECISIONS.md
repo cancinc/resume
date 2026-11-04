@@ -89,3 +89,11 @@ User requested the FNIH scheme from the Acronym Dictionary. Read the local refer
 Created the two-page PDF from the working HTML using embedded DM Sans. Independent sub-agent visual/structure review passed after correcting publication spacing, bold font embedding, and footer reading order. The preview now downloads the synchronized PDF and the stale update-pending note is removed. The original root HTML/PDF remain the unchanged baseline.
 
 The user confirmed Senior Project Manager September 2014–July 2019. Local automated checks passed; detailed results and remaining authenticated hosting checks are in `docs/DEPLOYMENT_CHECKS.md`. Cloudflare sign-in is required to inspect the active hosting application. No publish or remote push occurred.
+
+## November 4, 2026 — Approved production release
+
+User explicitly approved publishing the reviewed website and PDF. Verified the signed-in Cloudflare account: the static-only Worker `resume` serves custom domain nicking.cv, with no active Git build integration. Preserved compatibility date 2025-09-27, nodejs_compat, and existing domain/route settings.
+
+Saved the prior source baseline on GitHub branch `production-baseline-2026-11-04`. Created the reviewed release commit on `codex/project-baseline` and fast-forwarded `main` after approval. Uploaded Worker version cd952b5b-81c2-45a9-81e2-eadd16f8dc1d, checked the hosted preview and exact asset hashes, then deployed it at 100%. Re-fetched production HTML/PDF and verified exact hashes, content, links, and navigation. See the release record for rollback.
+
+Read the user-supplied official Cloudflare agent-setup prompt. Cloudflare skills are already installed and Codex MCP configuration already lists cloudflare, bindings, builds, docs, and observability connections. No duplicate global setup was installed. Project-local Wrangler 4.157.0 was installed and authenticated with the user's authorization for account/user read and Worker script write access.

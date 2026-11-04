@@ -44,4 +44,8 @@ The proposed redesign is in `preview/index.html`; the production `index.html` an
 
 Review priorities: opening positioning; selected impact; shortened C-Path descriptions; FNIH responsibilities still to be supplied; Senior Project Manager dates and Program Manager title discrepancies. The preview download now serves the synchronized, independently reviewed PDF. See `docs/DEPLOYMENT_CHECKS.md` for release readiness and remaining hosting checks.
 
-Build the synchronized PDF and prepare deployment assets with `python scripts/prepare_release.py` after installing `scripts/requirements-pdf.txt`. Deploy only the contents of `output/site` once the hosting workflow and release approval are verified. The original root HTML/PDF remain the production baseline until release integration.
+Build the synchronized PDF and prepare deployment assets with `python scripts/prepare_release.py` after installing `scripts/requirements-pdf.txt`. Deploy only the contents of `output/site` once the hosting workflow and release approval are verified. The root HTML/PDF now match the approved production release. The previous baseline remains recoverable from commit `a019a932c1cde9fe778393f069dc643376587d4c` and branch `production-baseline-2026-11-04`.
+
+## Production release — November 4, 2026
+
+Published https://nicking.cv after explicit approval. Cloudflare Worker `resume` serves only the files from `output/site`; there is no automatic GitHub build connection. Runtime compatibility date `2025-09-27` and flag `nodejs_compat` were preserved. Both live assets were fetched and matched against the approved SHA-256 hashes. See `docs/RELEASE-2026-11-04.md` for version, verification, and rollback details.
