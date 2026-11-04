@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "resume",
+  "account_id": "a29a081c996a962e8ae3e0a7795b1e0a",
+  "compatibility_date": "2025-09-27",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./output/site"
+  },
+  "workers_dev": true,
+  "preview_urls": true
+}

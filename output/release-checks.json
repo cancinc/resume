@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "two_page_pdf": true,
+    "experience_bullets_synchronized": true,
+    "no_doctoral_or_annual_claims": true,
+    "confirmed_current_title": true,
+    "confirmed_transition_dates": true,
+    "confirmed_senior_pm_dates": true,
+    "local_links_resolve": true,
+    "section_anchors_resolve": true,
+    "only_release_assets": true,
+    "pdf_identical_to_reviewed_output": true,
+    "no_stale_pdf_note": true,
+    "sans_serif_only": true
+  },
+  "sha256": {
+    "Nicholas_King_Resume.pdf": "d1629af9cd89e239147d90794dcbc4a327341d87337345deb47494520a5f8041",
+    "index.html": "63a865628083de07f519c2b92d3b9a42e13cb916e9ef1872347c9a8285cb6cac"
+  }
+}

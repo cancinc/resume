@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+tmp/
+preview/*-preview.png
+preview/draft-preview.png
+output/*.zip
+node_modules/
+.wrangler/
+resumeArchive/

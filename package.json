@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "wrangler": "4.157.0"
+  },
+  "name": "nicking-cv",
+  "private": true,
+  "scripts": {
+    "check:release": "python3 scripts/check_release.py",
+    "upload:preview": "wrangler versions upload --message \"Reviewed executive profile and synchronized resume\"",
+    "deploy:approved": "wrangler versions deploy"
+  }
+}
